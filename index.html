@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 🔔 Google AdSense Script (approve होने के बाद real code डालना) -->
+    <!--
+    <script async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXX"
+      crossorigin="anonymous"></script>
+    -->
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>🌤 Weather Website</h1>
+
+        <!-- 🔍 Search -->
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button onclick="getWeather()">Get Weather</button>
+
+        <!-- 📊 Weather Result -->
+        <div class="weather-box" id="weatherResult">
+            <p>City: --</p>
+            <p>Temperature: -- °C</p>
+            <p>Weather: --</p>
+        </div>
+
+        <!-- 📢 AdSense Space -->
+        <div class="ad-box">
+            <p>AdSense Ad Here</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
